@@ -1,5 +1,9 @@
-import styles from "./page.module.css";
+import Login from "@src/components/Login";
 
-export default function Home() {
-  return <main className={styles.main}></main>;
+export default function App() {
+  return (
+    <>
+      <Login />
+    </>
+  );
 }
